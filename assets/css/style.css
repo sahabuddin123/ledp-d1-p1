@@ -55,6 +55,14 @@ Project Section:
 .nav-link:hover{
 	color: #56ab2f !important;
 }
+.row{
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+}
+.col-12{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
 /**************************************************************
 			Common CSS End
 ****************************************************************/
@@ -97,7 +105,17 @@ Project Section:
 /**************************************************************
 			Header CSS Start
 ****************************************************************/
+/*.navbar{
+	position: sticky !important;
+	top: 10px;
 
+}*/
+.staky{
+	  position: -webkit-sticky;
+	  position: sticky;
+	  top: 0;
+	  z-index: 2;
+}
 /**************************************************************
 			Header CSS End
 ****************************************************************/

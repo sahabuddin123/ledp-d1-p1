@@ -1,1 +1,3 @@
-main.js
+$('.carousel').carousel({
+  interval: 5000
+})
