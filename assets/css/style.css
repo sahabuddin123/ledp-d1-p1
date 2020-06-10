@@ -4,6 +4,7 @@ Design by: Sahab Uddin
 Date:10-06-2020
 Project Section:
 	1.Top Bar
+	2.Header
 ***************************************************************/
 
 /**************************************************************
@@ -12,6 +13,7 @@ Project Section:
 *,body{
 	padding: 0;
 	margin: 0;
+	font-family: 'Open Sans', sans-serif;
 }
 /**************************************************************
 			Base CSS End
@@ -30,6 +32,28 @@ Project Section:
 }
 .list_none{
 	list-style-type: none;
+}
+.first_bg_color{
+	background-color: #fefeff;
+}
+.first_color{
+	color: #fefeff;
+}
+.nav-link{
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+}
+.active .nav-link{
+	color: #56ab2f !important;
+}
+/*.nav-link:active{
+	color: #56ab2f !important;
+}*/
+.nav-link:focus{
+	color: #56ab2f !important;
+}
+.nav-link:hover{
+	color: #56ab2f !important;
 }
 /**************************************************************
 			Common CSS End
@@ -70,6 +94,10 @@ Project Section:
 			Top Bar CSS End
 ****************************************************************/
 
+/**************************************************************
+			Header CSS Start
+****************************************************************/
 
-
-
+/**************************************************************
+			Header CSS End
+****************************************************************/
