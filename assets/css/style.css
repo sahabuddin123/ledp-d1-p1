@@ -5,6 +5,8 @@ Date:10-06-2020
 Project Section:
 	1.Top Bar
 	2.Header
+	3.Slider
+	4.About
 ***************************************************************/
 
 /**************************************************************
@@ -14,6 +16,64 @@ Project Section:
 	padding: 0;
 	margin: 0;
 	font-family: 'Open Sans', sans-serif;
+}
+ .owl-carousel .owl-nav button.owl-prev{
+    background: 0 0;
+    color: red;
+    border: none;
+    padding: 0px !important;
+    font: inherit;
+    position: absolute;
+    left: -5%;
+    font-size: 30px;
+    top: 50%;
+}
+.owl-carousel .owl-nav button.owl-next{
+    background: 0 0;
+    color: red;
+    border: none;
+    padding: 0!important;
+    font: inherit;
+    position: absolute;
+    right: -5%;
+    font-size: 30px;
+    top: 50%;
+}
+.owl-carousel .owl-nav button.owl-next:hover{
+    background: transparent !important;
+    color: green !important;
+    border: none !important;
+    padding: 0 !important;
+}
+.owl-carousel .owl-nav button.owl-next:focus{
+    background: transparent !important;
+    color: red !important;
+    border: 0px !important;
+    padding: 0 !important;
+}
+.owl-carousel .owl-nav button.owl-next:active{
+    background: transparent !important;
+    color: red !important;
+    border: 0px !important;
+    padding: 0 !important;
+}
+.owl-carousel .owl-nav button.owl-prev:hover{
+    background: transparent !important;
+    color: green !important;
+    border: none !important;
+    padding: 0 !important;
+}
+.owl-carousel .owl-nav button.owl-prev:focus{
+    background: transparent !important;
+    color: red !important;
+    border: 0px !important;
+    padding: 0 !important;
+}
+.owl-carousel .owl-nav button.owl-prev:active{
+    background: transparent !important;
+    color: red !important;
+    border: 0px !important;
+    padding: 0 !important;
 }
 /**************************************************************
 			Base CSS End
@@ -66,8 +126,9 @@ Project Section:
 /**************************************************************
 			Common CSS End
 ****************************************************************/
+
 /**************************************************************
-			Top Bar CSS Start
+			Top Bar Section CSS Start
 ****************************************************************/
 .top_bar{
 	height: 50px;
@@ -99,17 +160,17 @@ Project Section:
 	color: #f1f1f1;
 }
 /**************************************************************
-			Top Bar CSS End
+			Top Bar Section CSS End
 ****************************************************************/
-
+.top_bg{
+	background: rgba(254,255,255,0.5);
+}
+.nav-link{
+	color: #000;
+}
 /**************************************************************
-			Header CSS Start
+			Header Section CSS Start
 ****************************************************************/
-/*.navbar{
-	position: sticky !important;
-	top: 10px;
-
-}*/
 .staky{
 	  position: -webkit-sticky;
 	  position: sticky;
@@ -117,5 +178,122 @@ Project Section:
 	  z-index: 2;
 }
 /**************************************************************
-			Header CSS End
+			Header Section CSS End
 ****************************************************************/
+
+/**************************************************************
+			Slider Section CSS Start
+***************************************************************/
+.carousel-item{
+	position: relative;
+}
+.slider_content{
+	position: absolute;
+	top: 25%;
+	right: 11%;
+}
+.slider_content h1{
+	font-weight: bold;
+}
+.button_grup .btn{
+	border-radius: 0px !important;
+}
+/**************************************************************
+			Slider Section CSS End
+***************************************************************/
+
+/**************************************************************
+			About Section CSS Start
+***************************************************************/
+.container2{
+	margin-left: 130px;
+}
+.about{
+	margin-top: 80px;
+}
+.position-relative{
+	top: 10%;
+	left: 0;
+	z-index: 111;
+}
+.position-absolute{
+	top: 0px;
+	left: 20%;
+}
+.about_msg h2{
+	font-weight: bold;
+	font-size: 34px;
+}
+.about_msg p{
+	padding-top: 10px;
+}
+.custom_pt{
+	padding-top: 30px !important;
+}
+#princ_pic{
+	max-width: 255px !important;
+}
+/**************************************************************
+			About Section CSS End
+***************************************************************/
+.course{
+	margin-top: 80px;
+}
+.course_content h2{
+	font-weight: bold;
+}
+.course_content p{
+	font-weight: 300;
+}
+.custom_body{
+	padding: 0;
+	border: 1px solid #d2d2d2;
+	border-top: transparent !important;
+	padding-top: 10px;
+}
+ul.custum_list{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+
+}
+ul.custum_list li{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 1px solid #d2d2d2;
+	border-collapse: collapse;
+	width: 120px;
+}
+ul.custum_list li:nth-child(2){
+	width: 210px;
+	background-color: #56ab2f;
+}
+ul.custum_list li a{
+	color: #56ab2f;
+}
+.mid_class{
+	color: #fff !important;
+}
+
+.custom_body h5{
+	font-weight: bold;
+}
+.writter{
+	font-weight: 500;
+	color: #747474;
+}
+.writter span{
+	font-weight: 500;
+	color: #56ab2f;
+}
+.border_btrn{
+	width: 135px;
+	border-bottom: 2px solid #c7c7c7;
+	margin-left: 115px;
+}
+/**************************************************************
+			Course Section CSS Start
+***************************************************************/
+
