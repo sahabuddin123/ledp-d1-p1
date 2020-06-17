@@ -123,6 +123,10 @@ Project Section:
 	padding-left: 0px !important;
 	padding-right: 0px !important;
 }
+.custom_margin{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
 /**************************************************************
 			Common CSS End
 ****************************************************************/
@@ -296,4 +300,32 @@ ul.custum_list li a{
 /**************************************************************
 			Course Section CSS Start
 ***************************************************************/
+/**************************************************************
+			Facts Section CSS Start
+***************************************************************/
+.custom_bg_facts{
+	width: 100%;
+	background-image: url(../img/count.png);
+	background-attachment: fixed;
+}
+.custom_height
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.counter {
+  animation-duration: 1s;
+  animation-delay: 0s;
+}
+/*.custom_center{
+	height: 200px;
+	line-height: 200px;
+}*/
+/**************************************************************
+			Facts Section CSS End
+***************************************************************/
 
+.article{
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
